@@ -48,9 +48,71 @@ Check out the full breakdown and live article:
 ## 🙌 Stay in the Loop
 
 I'm building a full Gemini Dev Kit for beginners: annotated code, walkthroughs, and real-world use cases.  
-👉 [Join the waitlist here]((https://amaln.gumroad.com/l/edgekit-dev-kit))
+👉 [Join the waitlist here](#https://amaln.gumroad.com/l/edgekit-dev-kit)
 
 ---
+## 🧪 How to Use This Repo
+
+### 🔧 Option 1: Run Locally (Recommended)
+
+1. **Clone the repo and install dependencies**
+
+    ```bash
+    git clone https://github.com/yourusername/gemini-2.5-examples
+    cd gemini-2.5-examples
+    pip install -r requirements.txt
+    ```
+
+2. **Set your Gemini API key**
+
+    ```bash
+    # Mac/Linux
+    export GEMINI_API_KEY=your-api-key
+
+    # Windows
+    set GEMINI_API_KEY=your-api-key
+    ```
+
+3. **Run any script**
+
+    ```bash
+    python 01_json_output.py
+    python 02_tool_calling.py
+    python 03_vision_parsing.py
+    python 04_long_context_summary.py
+    ```
+
+---
+
+### 💻 Option 2: Run in Kaggle/Colab Notebook
+
+1. Create a new notebook at [kaggle.com](https://www.kaggle.com)
+2. Install required packages:
+
+    ```python
+    !pip install google-generativeai Pillow
+    ```
+
+3. Upload the script(s) and any required file (e.g. `user_feedback_dump.txt`)
+4. Add your Gemini API key as a Kaggle **secret** (`GEMINI_API_KEY`)
+5. Access it in your code:
+
+    ```python
+    import os
+    import google.generativeai as genai
+    genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+    ```
+
+---
+
+Each script in this repo is standalone and demonstrates a core Gemini 2.5 capability:  
+✅ Clean JSON generation  
+🔧 Native tool/function calling  
+👁 Vision-based reasoning  
+📚 Long-form context summarization
+
+No glue code. Just plug, test, and build.
+
 
 © 2025 – Built by Amal | For indie builders who move fast 🚀
 
