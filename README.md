@@ -1,31 +1,59 @@
-# gemini-2.5-examples-
- Gemini 2.5 AI Examples — JSON output, tool calling, and vision workflows for GenAI builders.
-Welcome! This repo contains clean, minimal examples showcasing the power of Google’s Gemini 2.5 API:
+# Gemini 2.5 Examples
 
-- ✅ Native JSON output
-- 🔧 Built-in tool calling
-- 👁 Vision understanding
-- ⚙️ Production-ready structured responses
+💡 Real-world code examples showcasing the power of Gemini 2.5 — from structured outputs to vision, tool calling, and wide context reasoning.
 
-Perfect for indie hackers, GenAI builders, and Kaggle enthusiasts.
-Code examples showcasing the power of Gemini 2.5: clean JSON generation, native function calling, and vision reasoning. Built for indie developers, AI builders, and beginners exploring GenAI with Google’s Gemini API.
+Built for developers, AI builders, and indie hackers looking to go from idea to product — fast.
 
-## Examples
+## 🔍 What's Inside
 
-| File                 | What It Shows                               |
-|----------------------|----------------------------------------------|
-| `01_json_output.py`  | Prompting Gemini to return structured JSON   |
-| `02_tool_calling.py` | Calling a function from a natural prompt     |
-| `03_vision_parsing.py`| Extracting info from images (e.g. invoices) |
+| File                        | Feature                    | Description                                                  |
+|-----------------------------|-----------------------------|--------------------------------------------------------------|
+| `01_json_output.py`        | JSON Output                 | Prompt Gemini to return clean structured JSON.               |
+| `02_tool_calling.py`       | Tool Calling                | Let Gemini call real Python functions natively.              |
+| `03_vision_parsing.py`     | Vision Reasoning            | Parse data from an invoice image using Gemini's vision model.|
+| `04_long_context_summary.py`| Wide Context Window (1M tokens) | Summarize and analyze long feedback input from a .txt file.   |
+| `user_feedback_dump.txt`   | Sample Input File           | Sample feedback file used for the long context demo.         |
 
-## How to Run
+## 🛠 Requirements
 
-1. Clone the repo  
-2. Add your Gemini API key or set up Vertex AI  
-3. Run the examples
+```bash
+pip install google-generativeai Pillow
+```
 
-## Coming Soon: Beginner Dev Kit  
-Join the waitlist → (https://amaln.gumroad.com/l/edgekit-dev-kit)
+## 🔐 Setup
+
+Set your Gemini API key using an environment variable or directly in code.
+
+```bash
+export GEMINI_API_KEY=your-api-key  # on Mac/Linux
+set GEMINI_API_KEY=your-api-key     # on Windows
+```
+
+## 🚀 Quick Start
+
+```bash
+python 01_json_output.py
+python 02_tool_calling.py
+python 03_vision_parsing.py
+python 04_long_context_summary.py
+```
+
+## 📥 New to Gemini?
+
+Check out the full breakdown and live article:  
+👉 [Read the Substack article here](https://decryptai.substack.com/p/gemini-25-is-quietly-insane)
+
+---
+
+## 🙌 Stay in the Loop
+
+I'm building a full Gemini Dev Kit for beginners: annotated code, walkthroughs, and real-world use cases.  
+👉 [Join the waitlist here]((https://amaln.gumroad.com/l/edgekit-dev-kit))
+
+---
+
+© 2025 – Built by Amal | For indie builders who move fast 🚀
+
 ## License
 
 This project is licensed under the MIT License.
