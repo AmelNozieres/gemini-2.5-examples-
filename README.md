@@ -41,7 +41,7 @@ python 04_long_context_summary.py
 ## 📥 New to Gemini?
 
 Check out the full breakdown and live article:  
-👉 [Read the Substack article here](https://decryptai.substack.com/p/gemini-25-is-quietly-insane)
+👉 [Read the Substack article here](https://decryptai.substack.com/p/gemini-25-is-quietly-insane-heres)
 
 ---
 
