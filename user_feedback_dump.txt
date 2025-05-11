@@ -1,0 +1,15 @@
+The new onboarding flow is confusing, especially on mobile.
+App takes too long to load when switching tabs.
+Great support, but the chatbot feels too scripted.
+Wish there were more integrations with third-party tools.
+The main menu labels are unclear — not intuitive.
+Loading times have improved, but not on Android.
+No dark mode yet, that's disappointing.
+Love the new dashboard design.
+Search sometimes shows irrelevant results.
+Notifications don’t sync properly across devices.
+Still no way to export data easily.
+Performance is great on desktop, but laggy on iOS.
+Need better tutorials for first-time users.
+Some features are hidden too deep in the UI.
+Crash rate seems lower now — good job.
